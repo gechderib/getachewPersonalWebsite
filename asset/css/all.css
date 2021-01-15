@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+footer{
+    margin: 0% 10%;
+}
+#bor{
+    margin: 1% 10%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0%;
+}
+.form-container{
+    margin-top: 2%;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #7eb444;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.pp{
+	width: 150px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.card{
+    height: 600px;
+}
+@media(max-width:775px){
+    #lin{
+        display: inline;
+        float: left;
+        width: 50px;
+    }
+}
+#namehead{
+    text-decoration: none;
+    color: rgb(17, 33, 119);
+}
+.navbar{
+    background-color: rgb(17, 33, 119);
+}
+.nav-link{
+    color: rgb(187, 183, 183);
+}
+.nav-link:active{
+    color: white
+}
+.nav-link:hover{
+    color: white
+}
+
+
+
