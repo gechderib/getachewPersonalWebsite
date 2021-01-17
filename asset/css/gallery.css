@@ -8,14 +8,16 @@
 .carousel-indicators img{
     height: 40px;
 }
-#gallery{
-    
-}
-#darking{
-    filter: opacity(70%);
-    filter: contrast(50%);
-}
-#darking:hover{
-    filter: opacity(100%);
-    
-}
+.carousel-indicators li {
+    border: 2px solid rgba(86, 230, 235, 0.815);
+    height: 50px;
+    opacity: 0.6;
+    width: 100px;
+  }
+  .carousel-indicators li:hover {
+    border: 5px solid rgba(230, 11, 200, 0.815);
+    height: 70px;
+    opacity: 1;
+    width: 200px;
+  }
+  
