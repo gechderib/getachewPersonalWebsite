@@ -4,6 +4,7 @@ body{
 footer{
     margin: 0% 10%;
 }
+
 #bor{
     margin: 1% 10%;
     background-color: rgb(255, 255, 255);
@@ -30,9 +31,8 @@ footer{
 	margin-left: 30%;
 	margin-right: 30%;
 }
-.card{
-    height: 600px;
-}
+.card-body { height: 500px; overflow-x: scroll; width: 100%; }
+.card-body p { width: 100%; word-break: break-word; }
 @media(max-width:775px){
     #lin{
         display: inline;
@@ -56,6 +56,8 @@ footer{
 .nav-link:hover{
     color: white
 }
-
+footer{
+    font-family: 'Handlee', cursive;
+  }
 
 
