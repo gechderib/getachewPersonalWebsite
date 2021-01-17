@@ -1,4 +1,14 @@
 #gallery{
+    margin: 2% 2%;
+}
+.carousel-inner .carousel-item img{
+    height: 400px;
+
+} 
+.carousel-indicators img{
+    height: 40px;
+}
+#gallery{
     
 }
 #darking{
